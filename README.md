@@ -5,8 +5,9 @@ A React Native sample app that shows a bar chart that displays the history of a 
 
 # Instructions to install
 
-1. git clone git@github.com:chitra591/savings-chart.git
-2. yarn install
-3. react-native run-android
+1. Clone the gitHub repository: git clone git@github.com:chitra591/savings-chart.git
+2. Go to the project folder, in terminal, and execute yarn install
+3. Create a file named local.properties in android folder and set the path for the Android SDK sdk.dir=/Users/USER_NAME/Library/Android/sdk
+3. Execute the command from the project folder : react-native run-android
 
 [You can edit the input JSON in <a href="https://github.com/chitra591/savings-chart/blob/master/js/NetworkManager.js">NetworkManager.js</a> file]
